@@ -7,6 +7,7 @@ class ActionLink extends Component {
     console.log("You clicked the link");
   }
 
+
   render(){
     return (
         <a className="appLink" href="#" onClick={this.handleClick}>

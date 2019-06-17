@@ -8,6 +8,7 @@ class Greeting extends Component {
     this.loggedIn = props.loggedIn;
   }
 
+
   render() {
     if (this.loggedIn) {
       return <UserGreeting/>
