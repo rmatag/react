@@ -21,6 +21,7 @@ class Toogle extends Component {
         </button>
     );
   }
+
 }
 
 export default Toogle;
